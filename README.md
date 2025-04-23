@@ -1,13 +1,13 @@
 # Calculator 2
 ### By: Diego J. Graham
 
-## 📋 Description
+## Description
 
 **Calculator 2** is an Arduino-based project that uses a membrane keypad for user input and an LCD to display the calculation. The calculator can **add, subtract, multiply, and divide** two integers, and it displays the result as a **float**. It also includes a **buzzer** for audible feedback on button presses.
 
 ---
 
-## 🔧 Features
+## Features
 
 - Accepts input via a 4x4 membrane keypad.
 - Displays real-time input and output on a 16x2 LCD.
@@ -19,7 +19,7 @@
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 - The user enters the **first number**.
 - The user then presses an **operator** (`+`, `-`, `*`, `/`).
@@ -29,9 +29,15 @@
 
 ---
 
-## 🔌 Components Used
+## Required Libraries
+- Keypad - handles keypad input
+- liquidCrystal - controls the LCD display
 
-- Arduino (Uno or compatible board)
+--
+
+## Components Used
+
+- Arduino (MEGA or compatible board)
 - 4x4 Membrane Keypad
 - 16x2 LCD Display
 - Piezo Buzzer
@@ -40,14 +46,14 @@
 
 ---
 
-## 📐 Schematic
+## Schematic
 
 A complete schematic is included in the repository under the filename:
 
 
 ---
 
-## ✅ Getting Started
+## Getting Started
 
 1. Clone the repository.
 2. Open `Calculator2.ino` in the Arduino IDE.
@@ -57,7 +63,7 @@ A complete schematic is included in the repository under the filename:
 
 ---
 
-## 💬 Notes
+## Notes
 
 - The result is always displayed as a float (e.g., `4.00`).
 - Make sure your keypad wiring matches the `rowPins` and `colPins` defined in the code.
@@ -65,7 +71,7 @@ A complete schematic is included in the repository under the filename:
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Add decimal support for more precise inputs.
 - Improve input validation (e.g., multiple operators).
@@ -73,7 +79,7 @@ A complete schematic is included in the repository under the filename:
 
 ---
 
-## 📜 License
+## License
 
 This project is open source and free to use with credit.
 
